@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="header">
+        <h1 class="calc">Calc</h1>
+        <div class="nav">
+          <div class="nums">
+            <p class="one">1</p>
+            <p class="two">2</p>
+            <p class="three">3</p>
+          </div>
+          <div class="thumb">
+            <input type="checkbox" id="check" />
+            <div class="circle"></div>
+          </div>
+
+          <p class="theme">Theme</p>
+        </div>
+      </div>
+      <div class="screen">
+        <input type="text" name="calc" readonly id="screen" />
+      </div>
+      <div class="numbers">
+        <div class="btn">
+          <button type="button" class="digit" data-num="7">7</button>
+          <button type="button" class="digit" data-num="8">8</button>
+          <button type="button" class="digit" data-num="9">9</button>
+          <button type="button" class="delete hover">DEL</button>
+          <button type="button" class="digit" data-num="4">4</button>
+          <button type="button" class="digit" data-num="5">5</button>
+          <button type="button" class="digit" data-num="6">6</button>
+          <button type="button" class="plus digit" data-num="+">+</button>
+          <button type="button" class="digit" data-num="1">1</button>
+          <button type="button" class="digit" data-num="2">2</button>
+          <button type="button" class="digit" data-num="3">3</button>
+          <button type="button" class="minus digit" data-num="-">-</button>
+          <button type="button" class="dot digit" data-num=".">.</button>
+          <button type="button" class="digit" data-num="0">0</button>
+          <button type="button" class="divide digit" data-num="/">/</button>
+          <button type="button" class="mult digit" data-num="*">x</button>
+          <button type="button" class="reset hover" data-num="7">RESET</button>
+          <button type="button" class="equal" data-num="=">=</button>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
